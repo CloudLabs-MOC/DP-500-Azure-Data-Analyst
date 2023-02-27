@@ -58,7 +58,7 @@ The script provisions an Azure Synapse Analytics workspace and an Azure Storage 
 
 1. Select the **files (1)** container, and note that it contains folders named **sales** and **synapse** (2). The **synapse** folder is used by Azure Synapse, and the **sales** folder contains the data files you are going to query.
 
-   ![](../images/mod2-files1.png)
+   ![](../images1/mod02-files01.png)
 
 1. Double click on the **sales** folder to open and the **orders** folder it contains, and observe that the **orders** folder contains **.csv** files for three years of sales data.
 
@@ -74,7 +74,7 @@ The script provisions an Azure Synapse Analytics workspace and an Azure Storage 
 
 1. In the new **Notebook 1 (1)** tab that opens, Select the **... (2)** icon to open the **Attach to** list, select your Spark pool  (3)****sparkpool-<inject key="Deployment ID" enableCopy="false" /> (3)**. Then use the **&#9655; Run all** button to run all of the cells in the notebook (there's currently only one!).
  
-   ![](../images/mod2-sparkpool1.png)
+   ![](../images1/mod02-sparkpool01.png)
 
     >**Note**: Since this is the first time you've run any Spark code in this session, the Spark pool must be started. This means that the first run in the session can     take a few minutes. Subsequent runs will be quicker.
   
@@ -249,7 +249,7 @@ A picture is proverbially worth a thousand words, and a chart is often better th
 
 1. In the results section beneath the cell, change the **View** option from **Table** to **Chart**.
 
-   ![](../images/mod2-chart.png)
+   ![](../images1/mod02-chart01.png)
 
 1. Use the **View options** button at the top right of the chart to display the options pane for the chart. Then set the options as follows and select **Apply**:
     - **Chart type**: Bar chart
