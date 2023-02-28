@@ -1,10 +1,4 @@
----
-lab:
-    title: 'Improve query performance with dual storage mode'
-    module: 'Optimize enterprise-scale tabular models'
----
-
-# Improve query performance with dual storage mode
+# Excercise 1: Improve query performance with dual storage mode
 
 ## Overview
 
@@ -18,42 +12,16 @@ In this lab, you learn how to:
 
 - Use Performance analyzer to review refresh activities.
 
-## Get started
 
-In this exercise, you will prepare your environment.
-
-### Clone the repository for this course
-
-1. On the start menu, open the Command Prompt
-
-    ![](../images/command-prompt.png)
-
-1. In the command prompt window, navigate to the D drive by typing:
-
-    `d:` 
-
-   Press enter.
-
-    ![](../images/command-prompt-2.png)
-
-
-1. In the command prompt window, enter the following command to download the course files and save them to a folder called DP500.
-    
-	`git clone https://github.com/MicrosoftLearning/DP-500-Azure-Data-Analyst DP500`
-   
-1. When the repository has been cloned, close the command prompt window. 
-   
-1. Open the D drive in the file explorer to ensure the files have been downloaded.
-
-### Set up Power BI Desktop
+### Task 1: Set up Power BI Desktop
 
 In this task, you will open a pre-developed Power BI Desktop solution.
 
 1. To open File Explorer, on the taskbar, select the **File Explorer** shortcut.
 
-	![](../images/dp500-improve-query-performance-with-dual-storage-mode-image1.png)
+     ![](../images/mod5-explorer.png)
 
-2. Go to the **D:\DP500\Allfiles\11\Starter** folder.
+2. Go to the **C:\LabFiles\DP-500-Azure-Data-Analyst\Allfiles\11\Starter** folder.
 
 3. To open a pre-developed Power BI Desktop file, double-click the **Sales Analysis - Improve query performance with dual storage mode.pbix** file.
 
@@ -65,7 +33,7 @@ In this task, you will open a pre-developed Power BI Desktop solution.
 
 6. To save the file, on the **File** ribbon tab, select **Save as**.
 
-7. In the **Save As** window, go to the **D:\DP500\Allfiles\11\MySolution** folder.
+7. In the **Save As** window, go to the **C:\LabFiles\DP-500-Azure-Data-Analyst\Allfiles\11\MySolution** folder.
 
 8. Select **Save**.
 
