@@ -30,9 +30,9 @@
    
      ![](../images1/image8.png "Enter Password")
      
-   > If you are presented with **Help us protect your account** dialog box, then select **Skip for now** option.
+   > If you are presented with **Help us protect your account** dialog box, then select **Ask later** option.
 
-     ![](../images1/MFA.png "Enter Password")
+     ![](../images1/MFA-01.png "Enter Password")
   
 1. If you see the pop-up **Stay Signed in?**, click No
 

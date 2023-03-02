@@ -27,6 +27,9 @@ In this task, you will set up Power BI.
 3. At the top-right corner of Power BI Desktop, if you're not already signed in, select **Sign In**. Use the lab credentials to complete the sign in process.
 
 	![](../images/dp500-create-a-star-schema-model-image3.png)
+	
+	![](../images1/dp500-M4-03.png)
+	
 4. You will be redirected to the Power BI sign-up page in Microsoft Edge. Select **Continue** to complete the sign up.
 
 	![](../images/dp500-create-a-star-schema-model-image3b.png)
@@ -47,7 +50,7 @@ In this task, you will set up Power BI.
 	
 1. Select Workspaces and **Create a Workspace**.
     
-    ![](../images/dp500-create-a-star-schema-model-image2a.png)
+    ![](../images1/workspace.png)
 
 1. Create a workspace named DP500 labs and select **Save**.
 
@@ -82,7 +85,7 @@ In this task you will link your existing Power BI workspace to your Azure Synaps
 
     ![](../images/dp500-create-a-star-schema-model-image3h.png)
 
-1. Navigate to **Manage** and select **Publish all** to ensure changes are published.
+1. Navigate to **Manage** and select **Publish all** to ensure changes are published, then select **Publish**.
 
 ## Develop a data model
 
@@ -281,9 +284,9 @@ In this task, you will create five Power Query queries that will each load as a 
 
 	*Note: We are merging queries to get the product details, category and sub category. This will be used in the Product dimension.*
 
-1. Select the **DimProductSubcategory** table and select the **ProductCategoryKey** Column in each table. Select **OK**.
+1. Select the **Product Details** table and select the **ProductCategoryKey** Column in each table. Select **OK**.
 
-	![](../images/dp500-40.png)
+	![](../images1/dp500-040.png)
 
 	
 	*Note: Use the default join for this merge, which is a left outer join.*
@@ -519,7 +522,7 @@ In this task, you will organize the model diagram to easily understand the star 
 
 6. Optionally, to save the solution, at the top-left, select the disk icon.
 
-7. In the **Save As** window, go to the **D:\DP500\Allfiles\04\MySolution** folder.
+7. In the **Save As** window, go to the **C:\LabFiles\DP-500-Azure-Data-Analyst\Allfiles\04\MySolution** folder.
 
 8. In the **File name** box, enter **Sales Analysis**.
 

@@ -21,7 +21,7 @@ This Lab provisioned with Azure Synapse Analytics workspace and an Azure Storage
    
 1. Select the Synapse workspace titled **workspace<inject key="DeploymentID" enableCopy="false"/>** 
 
-   ![Screenshot showing the selection of Synapse workspace ](../images/DP500-1-3.png)
+   ![Screenshot showing the selection of Synapse workspace ](../images1/DP500-01-03.png)
    
 1. In the **Overview** page for your Synapse workspace, in the **Open Synapse Studio** card in getting started, select **Open** to open Synapse Studio in a new browser tab and do the  sign in if prompted with the credientials provided in the Environment details tab.
 
@@ -29,15 +29,15 @@ This Lab provisioned with Azure Synapse Analytics workspace and an Azure Storage
    
 1. On the left side of Synapse Studio, use the **&rsaquo;&rsaquo;** icon to expand the menu - this reveals the different pages within Synapse Studio that you'll use to manage resources and perform data analytics tasks.
 
-1. On the **Data** page, view the **Linked** tab and verify that your workspace includes a link to your Azure Data Lake Storage Gen2 storage account, which should have a name similar to **workspace<inject key="DeploymentID" enableCopy="false"/>** (Primary - **datalakeinject key="DeploymentID" enableCopy="false"/>**)**.
+1. On the **Data** page, view the **Linked** tab and verify that your workspace includes a link to your Azure Data Lake Storage Gen2 storage account, which should have a name similar to **workspace<inject key="DeploymentID" enableCopy="false"/>** **(Primary - **datalake<inject key="DeploymentID" enableCopy="false"/>**)**.
 
-   ![Screenshot showing the Linked storage account with synapse ](../images/DP500-1-5.png) 
+   ![Screenshot showing the Linked storage account with synapse ](../images1/DP500-01-05.png) 
    
 1. Expand your storage account and verify that it contains a file system container named **files** inside **workspace<inject key="DeploymentID" enableCopy="false"/>**
 
 1. Select the **files** container, and note that it contains a folder named **sales**. This folder contains the data files you are going to query.
 
-   ![Screenshot showing the Linked storage account with synapse ](../images/DP500-1-6.png)
+   ![Screenshot showing the Linked storage account with synapse ](../images1/DP500-01-06.png)
    
 1. Open the **sales** folder,you can see the three sub folders titled **csv**.**json** and **parquet** folders.
 
@@ -51,7 +51,7 @@ This Lab provisioned with Azure Synapse Analytics workspace and an Azure Storage
 
    ![Screenshot showing the PREVIEW selection ](../images/DP500-1-9.png)
    
-   ![Screenshot showing the closing of PREVIEW selection ](../images/DP500-1-10.png)
+   ![Screenshot showing the closing of PREVIEW selection ](../images1/DP500-01-010.png)
    
 1. Close the preview by clicking on **OK**, and then use the **&#8593;** button to navigate back to the **sales** folder.
 
@@ -71,11 +71,11 @@ This Lab provisioned with Azure Synapse Analytics workspace and an Azure Storage
    
 1. In the **File type** list, select **Text format**, and then apply the settings to open a new SQL script that queries the data in the folder.
 
-   ![Screenshot showing the steps ](../images/DP500-1-12.png)
+   ![Screenshot showing the steps ](../images1/DP500-01-012.png)
    
 1. In the **Properties** pane for **SQL Script 1** that is created, change the name to **Sales CSV query**, and change the result settings to show **All rows**. Then in the toolbar, select **Publish** to save the script and use the **Properties** button (which looks similar to **&#128463;.**) on the right end of the toolbar to hide the **Properties** pane.
 
-   ![Screenshot showing the steps](../images/DP500-1-13.png)
+   ![Screenshot showing the steps](../images1/DP500-01-013.png)
    
 1. Review the SQL code that has been generated, which should be similar to this:
 
@@ -95,7 +95,7 @@ This Lab provisioned with Azure Synapse Analytics workspace and an Azure Storage
 
 1. In the **Connect to** list, ensure **Built-in** is selected - this represents the built-in SQL Pool that was created with your workspace.
 
-   ![Screenshot showing the steps](../images/DP500-1-14.png)
+   ![Screenshot showing the steps](../images1/DP500-01-014.png)
    
 1. On the toolbar, use the **&#9655; Run** button to run the SQL code, and review the results, which should look similar to this:
 
@@ -144,7 +144,7 @@ This Lab provisioned with Azure Synapse Analytics workspace and an Azure Storage
 
 8. Publish the changes to your script, and then close the script pane.
     
-    ![Screenshot showing the steps](../images/DP500-1-18.png)
+    ![Screenshot showing the steps](../images1/DP500-01-018.png)
 
 ### Task-3: Use SQL to query parquet files
 
@@ -158,7 +158,7 @@ While CSV is an easy format to use, it's common in big data processing scenarios
    
 1. In the **File type** list, select **Parquet format**, and then apply the settings to open a new SQL script that queries the data in the folder.
 
-   ![Screenshot showing the steps](../images/DP500-1-20.png)
+   ![Screenshot showing the steps](../images1/DP500-01-020.png)
    
 1. The script should look similar to this:
 
@@ -172,7 +172,7 @@ While CSV is an easy format to use, it's common in big data processing scenarios
             FORMAT = 'PARQUET'
         ) AS [result]
     ```
-    ![Screenshot showing the steps](../images/DP500-1-21.png)
+    ![Screenshot showing the steps](../images1/DP500-01-021.png)
     
 1. Run the code, and note that it returns sales order data in the same schema as the CSV files you explored earlier. The schema information is embedded in the parquet file, so the appropriate column names are shown in the results.
 
@@ -213,7 +213,7 @@ While CSV is an easy format to use, it's common in big data processing scenarios
     GROUP BY YEAR(OrderDate)
     ORDER BY OrderYear
     ```
-    ![Screenshot showing the steps](../images/DP500-1-25.png)
+    ![Screenshot showing the steps](../images1/DP500-01-025.png)
     
 1. Review the results and note that they include only the sales counts for 2019 and 2020. This filtering is achieved by inclusing a wildcard for the partition folder value in the BULK path (*year=\**) and a WHERE clause based on the *filepath* property of the results returned by OPENROWSET (which in this case has the alias *[result]*).
 
@@ -221,7 +221,7 @@ While CSV is an easy format to use, it's common in big data processing scenarios
 
 1. Name your script **Sales Parquet query** by clicking the Properties tab icon, and publish it. Then close the script pane.
 
-     ![Screenshot showing the steps](../images/DP500-1-27.png)
+     ![Screenshot showing the steps](../images1/DP500-01-027.png)
 
 ### Task-4: Use SQL to query JSON files
 
@@ -235,7 +235,7 @@ JSON is another popular data format, so it;s useful to be able to query .json fi
    
 1. In the **File type** list, select **Text format**, and then apply the settings to open a new SQL script that queries the data in the folder.
 
-    ![Screenshot showing the steps](../images/DP500-1-29.png)
+    ![Screenshot showing the steps](../images1/DP500-01-029.png)
     
 1.  The script should look similar to this:
 
@@ -251,7 +251,7 @@ JSON is another popular data format, so it;s useful to be able to query .json fi
         ) AS [result]
     ```
     
-    ![Screenshot showing the steps](../images/DP500-1-30.png)
+    ![Screenshot showing the steps](../images1/DP500-01-030.png)
     
     The script is designed to query comma-delimited (CSV) data rather then JSON, so you need to make a few modifications before it will work successfully.
 
@@ -296,7 +296,7 @@ JSON is another popular data format, so it;s useful to be able to query .json fi
 
 7. Name your script **Sales JSON query** by clicking the properties tab icon, and publish it. Then close the script pane.
 
-   ![Screenshot showing the steps](../images/DP500-1-33.png)
+   ![Screenshot showing the steps](../images1/DP500-01-033.png)
 
 ## Access external data in a database
 
@@ -332,7 +332,7 @@ By defining an external data source in a database, you can use it to reference t
    
 1. Ensure that the script is connected to the **Built-in** SQL pool and the **master** database, and then run it.
 
-   ![Screenshot showing the steps](../images/DP500-1-36.png)
+   ![Screenshot showing the steps](../images1/DP500-01-036.png)
 
 1. Switch back to the **Data** page and use the **&#8635;** button at the top right of Synapse Studio to refresh the page. Then view the **Workspace** tab in the **Data** pane, where a **SQL database** list is now displayed. Expand this list to verify that the **Sales** database has been created.
 
