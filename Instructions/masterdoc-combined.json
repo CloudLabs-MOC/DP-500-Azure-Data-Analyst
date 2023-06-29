@@ -1,0 +1,77 @@
+[
+    {
+      "Name": "DP-500-Azure-Data-Analyst",
+      "Language": "English",
+      "BaseURL": "https://github.com/CloudLabs-MOC/DP-500-Azure-Data-Analyst/",
+      "Files": [
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/DP-500-Azure-Data-Analyst/stage/Instructions/labs/0-GettingStarted.md",
+          "Order": 1
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/DP-500-Azure-Data-Analyst/stage/Instructions/labs/01-analyze-data-with-sql.md",
+          "Order": 2
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/DP-500-Azure-Data-Analyst/stage/Instructions/labs/02-analyze-files-with-Spark.md",
+          "Order": 3
+        },
+        {
+            "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/DP-500-Azure-Data-Analyst/stage/Instructions/labs/03-Explore-data-warehouse.md",
+            "Order": 4
+        },
+        {
+            "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/DP-500-Azure-Data-Analyst/stage/Instructions/labs/04-create-a-star-schema-model.md",
+            "Order": 5
+        },
+        {
+            "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/DP-500-Azure-Data-Analyst/stage/Instructions/labs/05-create-a-dataflow.md",
+            "Order": 6
+        },
+        {
+            "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/DP-500-Azure-Data-Analyst/stage/Instructions/labs/06-work-with-model-relationships.md",
+            "Order": 7
+        },
+        {
+            "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/DP-500-Azure-Data-Analyst/stage/Instructions/labs/07-create-calculation-groups.md",
+            "Order": 8
+        },
+        {
+            "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/DP-500-Azure-Data-Analyst/stage/Instructions/labs/08-create-a-composite-model.md",
+            "Order": 9
+        },
+        {
+            "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/DP-500-Azure-Data-Analyst/stage/Instructions/labs/09-enforce-model-security.md",
+            "Order": 10
+        },
+        {
+            "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/DP-500-Azure-Data-Analyst/stage/Instructions/labs/10-improve-performance-with-hybrid-tables.md",
+            "Order": 11
+        },
+        {
+            "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/DP-500-Azure-Data-Analyst/stage/Instructions/labs/11-improve-query-performance-with-dual-storage-mode.md",
+            "Order": 12
+        },
+        {
+            "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/DP-500-Azure-Data-Analyst/stage/Instructions/labs/12-improve-query-performance-with-aggregations.md",
+            "Order": 13
+        },
+        {
+            "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/DP-500-Azure-Data-Analyst/stage/Instructions/labs/13-use-tools-to-optimize-power-bi-performance.md",
+            "Order": 14
+        },
+        {
+            "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/DP-500-Azure-Data-Analyst/stage/Instructions/labs/14-monitor-data-in-real-time.md",
+            "Order": 15
+        },
+        {
+            "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/DP-500-Azure-Data-Analyst/stage/Instructions/labs/15-create-a-paginated-report.md",
+            "Order": 16
+        },
+        {
+            "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/DP-500-Azure-Data-Analyst/stage/Instructions/labs/16-create-reusable-power-bi-artifacts.md",
+            "Order": 17
+        }
+      ]
+    }
+  ]
