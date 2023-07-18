@@ -62,7 +62,7 @@ In this task, you will review the data model.
 
    >**Note** The current model design indicates that the **Date** table is a role-playing dimension. This dimension could play the role of order date, due date, or ship date. Which role depends on the analytical requirements of the report.
 
-   >**Note** In this lab, you will learn how to design a model to support role playing dimensions.*
+   >**Note** In this lab, you will learn how to design a model to support role playing dimensions.
 
 ### Task-3: Visualize date data
 

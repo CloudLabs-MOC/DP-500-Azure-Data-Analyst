@@ -88,7 +88,7 @@ You will sign into the Power BI service and start a trial license in this task.
 
 1. In a web browser, go to [https://powerbi.com](https://powerbi.com/) in case it is not opened.
 
-1. You will be redirected to the Power BI sign-up page in Microsoft Edge. Select **contiune**.
+1. You will be redirected to the Power BI sign-up page in Microsoft Edge. Select **continue**.
 
      ![](../images/logintopowerbi0111.png)
      
@@ -116,7 +116,7 @@ You will sign into the Power BI service and start a trial license in this task.
 
       ![](../images1/logintopowerbi4.png)
 
-	>**Note**: You require a Power BI Premium per User (PPU) license to complete this lab. A trial lic ense is sufficient. 
+	>**Note**: You require a Power BI Premium per User (PPU) license to complete this lab. A trial license is sufficient. 
 
 1. Do any remaining tasks to complete the trial setup.
 
@@ -264,7 +264,7 @@ In this task, you will add two parameters.
 	>**Note**: Incremental refresh requires that the table contain a date column of date/time or integer data type with the value formatted as yyyymmdd.
 	>**Note**: To set up incremental refresh, you must create parameters that Power BI will use to filter this column to create table partitions.
 
-4. To create a parameter, on the **Home** ribbon tab, select the **Manager Parameters** icon.
+4. To create a parameter, on the **Home** ribbon tab, select the **Manage Parameters** icon.
 
 	![](../images1/dp500-10-14.png)
 
@@ -508,7 +508,7 @@ In this task, you will add an order to the database.
 
 6. In the **Authentication** dropdown list, select **SQL Server Authentication**.
 
-7. Enter the Login username **sqladmin** and password `P@ssw0rd01`.
+7. Enter the Login username **sqladmin** and password **P@ssw0rd01**.
 
 8. Select **Connect**.
 
