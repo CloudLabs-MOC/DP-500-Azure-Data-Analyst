@@ -112,7 +112,7 @@ In this task, you will open Performance analyzer and use it to inspect refresh e
 
     ![](../images1/dp-500-lab11-T3.png)
 
-2. To inspect visual refresh events, on the **View** ribbon tab, from inside the **Show** panes group, select **Performance analyzer**.
+2. To inspect visual refresh events, on the **Optimize** ribbon tab, from inside the **Show** panes group, select **Performance analyzer**.
 
     ![](../images1/dp-500-lab11-T4.png)
 
