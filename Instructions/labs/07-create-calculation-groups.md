@@ -235,11 +235,8 @@ groups.
 1.  In the **Expression Editor**, run the following formula:
 
 
-    DAX
-    ```
     SELECTEDMEASURE () 
         - CALCULATE ( SELECTEDMEASURE (), 'Time Intelligence'[Time Calculation] = "PY" )
-    ```
     
 1. In the **Expression Editor** pane toolbar, select the first button to accept
     changes.
@@ -331,7 +328,7 @@ column.
 
      ![](../images1/dp-500-lab7-20.png)
 
-5.  Verify that the matrix visual shows a grid of time-related **Sales** measure
+5.  Verify that the build visual shows a grid of time-related **Sales** measure
     values grouped by month.
 
     ![Graphical user interface, application, table, Excel Description
