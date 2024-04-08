@@ -400,7 +400,7 @@ In this task, you will add a new **Date** table that sources its data from the d
 
    >**Note** It is possible to transform the data using the Power Query Editor.
 
-1. When the new table is added to the model, create a relationship by dragging the **DateKey** column from the **Date** table to the **OrderDateKey** column of the **Sales** table.
+1. When the new table is added to the model, switch to **Model** view and create a relationship by dragging the **DateKey** column from the **Date** table to the **OrderDateKey** column of the **Sales** table.
 
    ![](../images1/mod5-datekey.png)
 
